@@ -16,6 +16,7 @@ package rocketmq
 
 import (
 	"errors"
+	"github.com/apache/rocketmq-client-go/v2"
 	"time"
 
 	"github.com/apache/rocketmq-client-go/v2/consumer"

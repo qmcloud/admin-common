@@ -15,7 +15,7 @@
 package casbin
 
 import (
-	"github.com/DOUBLE-Baller/admin-common/config"
+	"github.com/qmcloud/admin-common/config"
 	"log"
 
 	"github.com/casbin/casbin/v2"

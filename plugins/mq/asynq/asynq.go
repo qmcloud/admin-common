@@ -16,7 +16,7 @@ package asynq
 
 import (
 	"fmt"
-	"github.com/DOUBLE-Baller/admin-common/config"
+	"github.com/qmcloud/admin-common/config"
 	"time"
 
 	"github.com/hibiken/asynq"
