@@ -2,9 +2,9 @@ package captcha
 
 import (
 	"context"
+	"github.com/DOUBLE-Baller/admin-common/config"
 	"github.com/mojocn/base64Captcha"
 	"github.com/redis/go-redis/v9"
-	"github.com/suyuan32/simple-admin-common/config"
 	"github.com/zeromicro/go-zero/core/logx"
 	"time"
 )

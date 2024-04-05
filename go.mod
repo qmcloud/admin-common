@@ -21,7 +21,7 @@ require (
 	github.com/pkg/errors v0.9.1
 	github.com/redis/go-redis/v9 v9.5.1
 	github.com/stretchr/testify v1.9.0
-	github.com/suyuan32/simple-admin-common v1.3.11
+	github.com/DOUBLE-Baller/admin-common v1.3.11
 	github.com/zeromicro/go-zero v1.6.3
 	go.mongodb.org/mongo-driver v1.14.0
 	golang.org/x/crypto v0.22.0
