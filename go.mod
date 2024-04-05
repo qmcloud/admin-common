@@ -1,4 +1,4 @@
-module admin-common
+module github.com/DOUBLE-Baller/admin-common
 
 go 1.22.0
 
