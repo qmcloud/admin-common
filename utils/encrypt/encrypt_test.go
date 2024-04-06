@@ -53,7 +53,7 @@ func TestBcryptCheck(t *testing.T) {
 		{
 			name: "test1",
 			args: args{
-				password: "simple-admin",
+				password: "admin",
 				hash:     "$2a$10$RGY8FVLUSKNMdKQr/y2oi.kh4r/ns6hbpJc.0RP56jd3gazeOJa42",
 			},
 			want: true,

@@ -561,10 +561,10 @@ github.com/stretchr/testify v1.8.4/go.mod h1:sz/lmYIOXD/1dqDmKjjqLyZ2RngseejIcXl
 github.com/stretchr/testify v1.9.0 h1:HtqpIVDClZ4nwg75+f6Lvsy/wHu+3BoSGCbBAcpTsTg=
 github.com/stretchr/testify v1.9.0/go.mod h1:r2ic/lqez/lEtzL7wO/rwa5dbSLXVDPFyf8C91i36aY=
 github.com/subosito/gotenv v1.2.0/go.mod h1:N0PQaV/YGNqwC0u51sEeR/aUtSLEXKX9iv69rRypqCw=
-github.com/suyuan32/base64Captcha v1.3.7 h1:B5+ArqVlnzdO+5oyHzvz1nKSipUcicaHEBMFZb7hpv4=
-github.com/suyuan32/base64Captcha v1.3.7/go.mod h1:XXuqS4lYf+ANu15oTrA2Z47hv8R2h9nVVH5IJRmxLZQ=
-github.com/suyuan32/simple-admin-tools v1.6.9 h1:wEHV1YeEXdyKIh5MHT73NxQaNGKZo4eLzzK2bg7Zvho=
-github.com/suyuan32/simple-admin-tools v1.6.9/go.mod h1:RtX0cyNWNEd5mquIpl4azH5dUp790bYVmLIzxELS5Pw=
+github.com/qmcloud/base64Captcha v1.3.7 h1:B5+ArqVlnzdO+5oyHzvz1nKSipUcicaHEBMFZb7hpv4=
+github.com/qmcloud/base64Captcha v1.3.7/go.mod h1:XXuqS4lYf+ANu15oTrA2Z47hv8R2h9nVVH5IJRmxLZQ=
+github.com/qmcloud/admin-tools v1.6.9 h1:wEHV1YeEXdyKIh5MHT73NxQaNGKZo4eLzzK2bg7Zvho=
+github.com/qmcloud/admin-tools v1.6.9/go.mod h1:RtX0cyNWNEd5mquIpl4azH5dUp790bYVmLIzxELS5Pw=
 github.com/tidwall/gjson v1.13.0/go.mod h1:/wbyibRr2FHMks5tjHJ5F8dMZh3AcwJEMf5vlfC0lxk=
 github.com/tidwall/gjson v1.17.1 h1:wlYEnwqAHgzmhNUFfw7Xalt2JzQvsMx2Se4PcoFCT/U=
 github.com/tidwall/gjson v1.17.1/go.mod h1:/wbyibRr2FHMks5tjHJ5F8dMZh3AcwJEMf5vlfC0lxk=
