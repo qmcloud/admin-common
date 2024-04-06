@@ -2,9 +2,9 @@ module github.com/qmcloud/admin-common
 
 go 1.22.0
 
-replace github.com/zeromicro/go-zero v1.6.3 => github.com/qmcloud/admin-tools v1.6.9
+replace github.com/zeromicro/go-zero v1.6.3 => github.com/qmcloud/admin-tools v1.0.0
 
-replace github.com/mojocn/base64Captcha v1.3.6 => github.com/qmcloud/base64Captcha v1.3.7
+replace github.com/mojocn/base64Captcha v1.3.6 => github.com/qmcloud/base64Captcha v1.0.0
 
 require (
 	entgo.io/ent v0.13.1

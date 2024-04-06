@@ -495,6 +495,10 @@ github.com/prometheus/procfs v0.0.8/go.mod h1:7Qr8sr6344vo1JqZ6HhLceV9o3AJ1Ff+Gx
 github.com/prometheus/procfs v0.12.0 h1:jluTpSng7V9hY0O2R9DzzJHYb2xULk9VTR1V1R/k6Bo=
 github.com/prometheus/procfs v0.12.0/go.mod h1:pcuDEFsWDnvcgNzo4EEweacyhjeA9Zk3cnaOZAZEfOo=
 github.com/prometheus/tsdb v0.7.1/go.mod h1:qhTCs0VvXwvX/y3TZrWD7rabWM+ijKTux40TwIPHuXU=
+github.com/qmcloud/admin-tools v1.0.0 h1:6+pW2IJLnCoEHp6IQ5jPyiV5V4cTj5JRZlZq/eBDgCA=
+github.com/qmcloud/admin-tools v1.0.0/go.mod h1:RtX0cyNWNEd5mquIpl4azH5dUp790bYVmLIzxELS5Pw=
+github.com/qmcloud/base64Captcha v1.0.0 h1:Snz0lBEB7mv+x8Xh+I2+PtuCD1twI2QEDm1NnDs2DG4=
+github.com/qmcloud/base64Captcha v1.0.0/go.mod h1:XXuqS4lYf+ANu15oTrA2Z47hv8R2h9nVVH5IJRmxLZQ=
 github.com/redis/go-redis/v9 v9.0.3/go.mod h1:WqMKv5vnQbRuZstUwxQI195wHy+t4PuXDOjzMvcuQHk=
 github.com/redis/go-redis/v9 v9.5.1 h1:H1X4D3yHPaYrkL5X06Wh6xNVM/pX0Ft4RV0vMGvLBh8=
 github.com/redis/go-redis/v9 v9.5.1/go.mod h1:hdY0cQFCN4fnSYT6TkisLufl/4W5UIXyv0b/CLO2V2M=
@@ -561,10 +565,6 @@ github.com/stretchr/testify v1.8.4/go.mod h1:sz/lmYIOXD/1dqDmKjjqLyZ2RngseejIcXl
 github.com/stretchr/testify v1.9.0 h1:HtqpIVDClZ4nwg75+f6Lvsy/wHu+3BoSGCbBAcpTsTg=
 github.com/stretchr/testify v1.9.0/go.mod h1:r2ic/lqez/lEtzL7wO/rwa5dbSLXVDPFyf8C91i36aY=
 github.com/subosito/gotenv v1.2.0/go.mod h1:N0PQaV/YGNqwC0u51sEeR/aUtSLEXKX9iv69rRypqCw=
-github.com/qmcloud/base64Captcha v1.3.7 h1:B5+ArqVlnzdO+5oyHzvz1nKSipUcicaHEBMFZb7hpv4=
-github.com/qmcloud/base64Captcha v1.3.7/go.mod h1:XXuqS4lYf+ANu15oTrA2Z47hv8R2h9nVVH5IJRmxLZQ=
-github.com/qmcloud/admin-tools v1.6.9 h1:wEHV1YeEXdyKIh5MHT73NxQaNGKZo4eLzzK2bg7Zvho=
-github.com/qmcloud/admin-tools v1.6.9/go.mod h1:RtX0cyNWNEd5mquIpl4azH5dUp790bYVmLIzxELS5Pw=
 github.com/tidwall/gjson v1.13.0/go.mod h1:/wbyibRr2FHMks5tjHJ5F8dMZh3AcwJEMf5vlfC0lxk=
 github.com/tidwall/gjson v1.17.1 h1:wlYEnwqAHgzmhNUFfw7Xalt2JzQvsMx2Se4PcoFCT/U=
 github.com/tidwall/gjson v1.17.1/go.mod h1:/wbyibRr2FHMks5tjHJ5F8dMZh3AcwJEMf5vlfC0lxk=
