@@ -18,12 +18,12 @@ import (
 	"context"
 	"embed"
 	"encoding/json"
+	"github.com/nicksnyder/go-i18n/v2/i18n"
 	"github.com/zeromicro/go-zero/core/errorx"
 	"net/http"
 	"path/filepath"
 	"strings"
 
-	"github.com/nicksnyder/go-i18n/v2/i18n"
 	"github.com/zeromicro/go-zero/core/logx"
 	"golang.org/x/text/language"
 	"google.golang.org/grpc/status"
