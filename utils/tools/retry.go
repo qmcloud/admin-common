@@ -1,4 +1,4 @@
-package utils
+package tools
 
 import (
 	"github.com/avast/retry-go"

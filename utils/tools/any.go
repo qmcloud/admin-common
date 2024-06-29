@@ -1,4 +1,4 @@
-package utils
+package tools
 
 func AnyPtr[T any](v T) *T {
 	return &v
