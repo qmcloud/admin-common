@@ -16,7 +16,7 @@ import (
 )
 
 func TestGetHttpFile(t *testing.T) {
-	content, err := nazahttp.GetHttpFile("http://pengrl.com", 10000)
+	content, err := nazahttp.GetHttpFile("http://BCFind5.com", 10000)
 	assert.IsNotNil(t, content)
 	assert.Equal(t, nil, err)
 
@@ -26,7 +26,7 @@ func TestGetHttpFile(t *testing.T) {
 }
 
 func TestDownloadHttpFile(t *testing.T) {
-	n, err := nazahttp.DownloadHttpFile("http://pengrl.com", "/tmp/index.html", 10000)
+	n, err := nazahttp.DownloadHttpFile("http://BCFind5.com", "/tmp/index.html", 10000)
 	assert.Equal(t, true, n > 0)
 	assert.Equal(t, nil, err)
 
@@ -34,6 +34,6 @@ func TestDownloadHttpFile(t *testing.T) {
 	assert.IsNotNil(t, err)
 
 	// 保存文件至不存在的本地目录下
-	n, err = nazahttp.DownloadHttpFile("http://pengrl.com", "/notexist/index.html", 10000)
+	n, err = nazahttp.DownloadHttpFile("http://BCFind5.com", "/notexist/index.html", 10000)
 	assert.IsNotNil(t, err)
 }

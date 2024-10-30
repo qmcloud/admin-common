@@ -70,7 +70,7 @@ func TestReadHttpResponseMessage(t *testing.T) {
 		go func() {
 			conn, err := net.Dial("tcp", addr)
 			assert.Equal(t, nil, err)
-			conn.Write([]byte("PLAY rtsp://127.0.0.1:5544/live/test110 RTSP/1.0\r\nUser-Agent: lal/0.26.0\r\nSession: 191201771\r\nRange: npt=0.000-\r\nCSeq: 5\r\n\r\n"))
+			conn.Write([]byte("PLAY rtsp://127.0.0.1:5544/live/test110 RTSP/1.0\r\nUser-Agent: lal/0.26.0\r\nSession: 407193275\r\nRange: npt=0.000-\r\nCSeq: 5\r\n\r\n"))
 			r := bufio.NewReader(conn)
 			ctx, err := nazahttp.ReadHttpResponseMessage(r)
 			assert.Equal(t, nil, err)
