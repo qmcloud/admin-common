@@ -1,15 +1,15 @@
 // Copyright 2019, Chef.  All rights reserved.
-// https://github.com/qmcloud/admin-common
+// https://github.com/q191201771/naza
 //
 // Use of this source code is governed by a MIT-style license
 // that can be found in the License file.
 //
-// Author: QMY (407193275@qq.com)
+// Author: Chef (191201771@qq.com)
 
 // Package assert 提供了单元测试时的断言功能，减少一些模板代码
 package assert
 
-import "github.com/qmcloud/admin-common/utils/nazareflect"
+import "github.com/q191201771/naza/pkg/nazareflect"
 
 // TestingT 单元测试中的 *testing.T 和 *testing.B 都满足该接口
 type TestingT interface {

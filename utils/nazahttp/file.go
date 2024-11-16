@@ -1,10 +1,10 @@
 // Copyright 2020, Chef.  All rights reserved.
-// https://github.com/qmcloud/admin-common
+// https://github.com/q191201771/naza
 //
 // Use of this source code is governed by a MIT-style license
 // that can be found in the License file.
 //
-// Author: QMY (407193275@qq.com)
+// Author: Chef (191201771@qq.com)
 
 package nazahttp
 
@@ -19,6 +19,8 @@ import (
 // TODO(chef): 重命名为GetAll
 //
 // GetHttpFile 获取http文件保存至字节切片
+//
+//
 func GetHttpFile(url string, timeoutMs int) ([]byte, error) {
 	var c http.Client
 	if timeoutMs > 0 {

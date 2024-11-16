@@ -1,10 +1,10 @@
 // Copyright 2021, Chef.  All rights reserved.
-// https://github.com/qmcloud/admin-common
+// https://github.com/q191201771/naza
 //
 // Use of this source code is governed by a MIT-style license
 // that can be found in the License file.
 //
-// Author: QMY (407193275@qq.com)
+// Author: Chef (191201771@qq.com)
 
 package nazasync
 
@@ -14,9 +14,9 @@ import (
 	"sync"
 	"time"
 
-	"github.com/qmcloud/admin-common/utils/unique"
+	"github.com/q191201771/naza/pkg/unique"
 
-	"github.com/qmcloud/admin-common/utils/nazalog"
+	"github.com/q191201771/naza/pkg/nazalog"
 )
 
 // 用于debug锁方面的问题

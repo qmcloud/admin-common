@@ -1,10 +1,10 @@
 // Copyright 2020, Chef.  All rights reserved.
-// https://github.com/qmcloud/admin-common
+// https://github.com/q191201771/naza
 //
 // Use of this source code is governed by a MIT-style license
 // that can be found in the License file.
 //
-// Author: QMY (407193275@qq.com)
+// Author: Chef (191201771@qq.com)
 
 package nazahttp
 
@@ -73,6 +73,7 @@ func ReadHttpResponseMessage(r HttpReader) (ctx HttpRespMsgCtx, err error) {
 // ReadHttpMessage
 //
 // 注意，如果HTTP Header中不包含`Content-Length`，则不会读取HTTP Body，并且err返回值为nil
+//
 func ReadHttpMessage(r HttpReader) (ctx HttpMsgCtx, err error) {
 	var requestLine string
 	requestLine, ctx.Headers, err = ReadHttpHeader(r)

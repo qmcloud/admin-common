@@ -1,19 +1,19 @@
 // Copyright 2019, Chef.  All rights reserved.
-// https://github.com/qmcloud/admin-common
+// https://github.com/q191201771/naza
 //
 // Use of this source code is governed by a MIT-style license
 // that can be found in the License file.
 //
-// Author: QMY (407193275@qq.com)
+// Author: Chef (191201771@qq.com)
 
 package nazalog
 
 import (
 	"fmt"
 
-	"github.com/qmcloud/admin-common/utils/nazareflect"
+	"github.com/q191201771/naza/pkg/nazareflect"
 
-	"github.com/qmcloud/admin-common/utils/fake"
+	"github.com/q191201771/naza/pkg/fake"
 )
 
 var global Logger

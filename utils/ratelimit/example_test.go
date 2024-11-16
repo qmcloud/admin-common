@@ -1,10 +1,10 @@
 // Copyright 2020, Chef.  All rights reserved.
-// https://github.com/qmcloud/admin-common
+// https://github.com/q191201771/naza
 //
 // Use of this source code is governed by a MIT-style license
 // that can be found in the License file.
 //
-// Author: QMY (407193275@qq.com)
+// Author: Chef (191201771@qq.com)
 
 package ratelimit_test
 
@@ -12,8 +12,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/qmcloud/admin-common/utils/nazalog"
-	"github.com/qmcloud/admin-common/utils/ratelimit"
+	"github.com/q191201771/naza/pkg/nazalog"
+	"github.com/q191201771/naza/pkg/ratelimit"
 )
 
 var runExample = true

@@ -1,10 +1,10 @@
 // Copyright 2020, Chef.  All rights reserved.
-// https://github.com/qmcloud/admin-common
+// https://github.com/q191201771/naza
 //
 // Use of this source code is governed by a MIT-style license
 // that can be found in the License file.
 //
-// Author: QMY (407193275@qq.com)
+// Author: Chef (191201771@qq.com)
 
 package nazahttp
 
@@ -13,7 +13,7 @@ import (
 	"io/ioutil"
 	"net/http"
 
-	"github.com/qmcloud/admin-common/utils/nazajson"
+	"github.com/q191201771/naza/pkg/nazajson"
 )
 
 // @brief 从http请求中解析body中的json字符串，并反序列化至结构体中

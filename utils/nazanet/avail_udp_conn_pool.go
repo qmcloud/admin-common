@@ -1,10 +1,10 @@
 // Copyright 2020, Chef.  All rights reserved.
-// https://github.com/qmcloud/admin-common
+// https://github.com/q191201771/naza
 //
 // Use of this source code is governed by a MIT-style license
 // that can be found in the License file.
 //
-// Author: QMY (407193275@qq.com)
+// Author: Chef (191201771@qq.com)
 
 package nazanet
 
@@ -15,6 +15,7 @@ import (
 
 // 从指定的UDP端口范围内，寻找可绑定监听的端口，绑定监听并返回
 // Pool只提供Acquire获取接口，不提供释放接口，连接资源是标准*net.UDPConn对象，需要释放时，外部直接Close即可
+//
 type AvailUdpConnPool struct {
 	minPort uint16
 	maxPort uint16
@@ -60,6 +61,7 @@ func (a *AvailUdpConnPool) Acquire() (*net.UDPConn, uint16, error) {
 
 // 有的业务场景，需要返回两个可用的端口，并且必须是连续的
 // @return 前面的是端口小的，后面的是端口+1的
+//
 func (a *AvailUdpConnPool) Acquire2() (*net.UDPConn, uint16, *net.UDPConn, uint16, error) {
 	a.m.Lock()
 	defer a.m.Unlock()

@@ -1,10 +1,10 @@
 // Copyright 2019, Chef.  All rights reserved.
-// https://github.com/qmcloud/admin-common
+// https://github.com/q191201771/naza
 //
 // Use of this source code is governed by a MIT-style license
 // that can be found in the License file.
 //
-// Author: QMY (407193275@qq.com)
+// Author: Chef (191201771@qq.com)
 
 package filebatch
 
@@ -15,8 +15,8 @@ import (
 	"path/filepath"
 	"testing"
 
-	"github.com/qmcloud/admin-common/utils/assert"
-	"github.com/qmcloud/admin-common/utils/nazalog"
+	"github.com/q191201771/naza/pkg/assert"
+	"github.com/q191201771/naza/pkg/nazalog"
 )
 
 var filenameToContent map[string][]byte
@@ -27,7 +27,7 @@ var head = `// Copyright %s, Chef.  All rights reserved.
 // Use of this source code is governed by a MIT-style license
 // that can be found in the License file.
 //
-// Author: QMY (407193275@qq.com)`
+// Author: Chef (191201771@qq.com)`
 
 var tail = `
 > author: xxx

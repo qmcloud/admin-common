@@ -1,10 +1,10 @@
 // Copyright 2020, Chef.  All rights reserved.
-// https://github.com/qmcloud/admin-common
+// https://github.com/q191201771/naza
 //
 // Use of this source code is governed by a MIT-style license
 // that can be found in the License file.
 //
-// Author: QMY (407193275@qq.com)
+// Author: Chef (191201771@qq.com)
 
 package nazahttp_test
 
@@ -15,11 +15,11 @@ import (
 	"sync"
 	"testing"
 
-	"github.com/qmcloud/admin-common/utils/assert"
+	"github.com/q191201771/naza/pkg/assert"
 
-	"github.com/qmcloud/admin-common/utils/nazalog"
+	"github.com/q191201771/naza/pkg/nazalog"
 
-	"github.com/qmcloud/admin-common/utils/nazahttp"
+	"github.com/q191201771/naza/pkg/nazahttp"
 )
 
 func TestHeader(t *testing.T) {
@@ -70,7 +70,7 @@ func TestReadHttpResponseMessage(t *testing.T) {
 		go func() {
 			conn, err := net.Dial("tcp", addr)
 			assert.Equal(t, nil, err)
-			conn.Write([]byte("PLAY rtsp://127.0.0.1:5544/live/test110 RTSP/1.0\r\nUser-Agent: lal/0.26.0\r\nSession: 407193275\r\nRange: npt=0.000-\r\nCSeq: 5\r\n\r\n"))
+			conn.Write([]byte("PLAY rtsp://127.0.0.1:5544/live/test110 RTSP/1.0\r\nUser-Agent: lal/0.26.0\r\nSession: 191201771\r\nRange: npt=0.000-\r\nCSeq: 5\r\n\r\n"))
 			r := bufio.NewReader(conn)
 			ctx, err := nazahttp.ReadHttpResponseMessage(r)
 			assert.Equal(t, nil, err)

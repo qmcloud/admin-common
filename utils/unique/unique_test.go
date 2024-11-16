@@ -1,10 +1,10 @@
 // Copyright 2019, Chef.  All rights reserved.
-// https://github.com/qmcloud/admin-common
+// https://github.com/q191201771/naza
 //
 // Use of this source code is governed by a MIT-style license
 // that can be found in the License file.
 //
-// Author: QMY (407193275@qq.com)
+// Author: Chef (191201771@qq.com)
 
 package unique
 
@@ -12,7 +12,7 @@ import (
 	"sync"
 	"testing"
 
-	"github.com/qmcloud/admin-common/utils/assert"
+	"github.com/q191201771/naza/pkg/assert"
 )
 
 func TestGenUniqueKey(t *testing.T) {
