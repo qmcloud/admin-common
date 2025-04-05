@@ -1,4 +1,4 @@
-// Copyright 2023  All Rights Reserved.
+// Copyright 2023 The Ryan SU Authors (https://github.com/suyuan32). All Rights Reserved.
 //
 // Licensed under the Apache License, Version 2.0 (the "License");
 // you may not use this file except in compliance with the License.
@@ -22,9 +22,18 @@ import (
 )
 
 func TestTranslator(t *testing.T) {
-	l := &Translator{}
-	l.NewBundle(LocaleFS)
-	l.NewTranslator()
-	res := l.Trans(context.WithValue(context.Background(), "lang", "zh"), "common.success")
+	c := Conf{
+		Dir: "",
+	}
+
+	trans := NewTranslator(c, LocaleFS)
+
+	res := trans.Trans(context.WithValue(context.Background(), "lang", "zh"), "common.success")
 	assert.Equal(t, "成功", res)
+
+	res = trans.Trans(context.WithValue(context.Background(), "lang", "ja"), "common.success")
+	assert.Equal(t, "操作が成功しました", res)
+
+	res = trans.Trans(context.WithValue(context.Background(), "lang", "en"), "common.success")
+	assert.Equal(t, "Successfully", res)
 }

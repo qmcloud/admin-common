@@ -1,4 +1,4 @@
-// Copyright 2023  All Rights Reserved.
+// Copyright 2023 The Ryan SU Authors (https://github.com/suyuan32). All Rights Reserved.
 //
 // Licensed under the Apache License, Version 2.0 (the "License");
 // you may not use this file except in compliance with the License.
@@ -16,7 +16,6 @@ package mixins
 
 import (
 	"entgo.io/ent"
-	"entgo.io/ent/dialect/entsql"
 	"entgo.io/ent/schema/field"
 	"entgo.io/ent/schema/mixin"
 )
@@ -32,7 +31,6 @@ func (StatusMixin) Fields() []ent.Field {
 		field.Uint8("status").
 			Default(1).
 			Optional().
-			Comment("Status 1: normal 2: ban | 状态 1 正常 2 禁用").
-			Annotations(entsql.WithComments(true)),
+			Comment("Status 1: normal 2: ban | 状态 1 正常 2 禁用"),
 	}
 }

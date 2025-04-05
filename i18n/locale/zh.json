@@ -17,7 +17,6 @@
 		"constraintError": "操作失败: 数据冲突",
 		"validationError": "操作失败: 校验失败",
 		"notSingularError": "操作失败: 数据不唯一",
-		"serviceUnavailable": "服务不可用，请检查服务是否已启用",
-		"nolisence": "付费项目请联系作者，微信：BCFind5"
+		"serviceUnavailable": "服务不可用，请检查服务是否已启用"
 	}
 }

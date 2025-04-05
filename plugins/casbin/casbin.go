@@ -1,4 +1,4 @@
-// Copyright 2023  All Rights Reserved.
+// Copyright 2023 The Ryan SU Authors (https://github.com/suyuan32). All Rights Reserved.
 //
 // Licensed under the Apache License, Version 2.0 (the "License");
 // you may not use this file except in compliance with the License.
@@ -15,8 +15,10 @@
 package casbin
 
 import (
-	"github.com/qmcloud/admin-common/config"
+	"fmt"
 	"log"
+
+	"github.com/suyuan32/simple-admin-common/config"
 
 	"github.com/casbin/casbin/v2"
 	"github.com/casbin/casbin/v2/model"
@@ -125,7 +127,7 @@ func (l CasbinConf) MustNewOriginalRedisWatcher(c config.RedisConf, f func(strin
 			Username: c.Username,
 			Password: c.Pass,
 		},
-		Channel:    "/casbin",
+		Channel:    fmt.Sprintf("%s-%d", config.RedisCasbinChannel, c.Db),
 		IgnoreSelf: false,
 	})
 	logx.Must(err)

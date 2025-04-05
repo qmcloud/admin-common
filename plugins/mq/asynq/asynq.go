@@ -1,4 +1,4 @@
-// Copyright 2023  All Rights Reserved.
+// Copyright 2023 The Ryan SU Authors (https://github.com/suyuan32). All Rights Reserved.
 //
 // Licensed under the Apache License, Version 2.0 (the "License");
 // you may not use this file except in compliance with the License.
@@ -16,8 +16,9 @@ package asynq
 
 import (
 	"fmt"
-	"github.com/qmcloud/admin-common/config"
 	"time"
+
+	"github.com/suyuan32/simple-admin-common/config"
 
 	"github.com/hibiken/asynq"
 	"github.com/zeromicro/go-zero/core/logx"

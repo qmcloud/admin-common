@@ -1,4 +1,4 @@
-// Copyright 2023  All Rights Reserved.
+// Copyright 2023 The Ryan SU Authors (https://github.com/suyuan32). All Rights Reserved.
 //
 // Licensed under the Apache License, Version 2.0 (the "License");
 // you may not use this file except in compliance with the License.
@@ -53,7 +53,7 @@ func TestBcryptCheck(t *testing.T) {
 		{
 			name: "test1",
 			args: args{
-				password: "admin",
+				password: "simple-admin",
 				hash:     "$2a$10$RGY8FVLUSKNMdKQr/y2oi.kh4r/ns6hbpJc.0RP56jd3gazeOJa42",
 			},
 			want: true,

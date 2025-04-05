@@ -1,4 +1,4 @@
-// Copyright 2023  All Rights Reserved.
+// Copyright 2023 The Ryan SU Authors (https://github.com/suyuan32). All Rights Reserved.
 //
 // Licensed under the Apache License, Version 2.0 (the "License");
 // you may not use this file except in compliance with the License.
@@ -20,5 +20,14 @@ const RedisCaptchaPrefix = "CAPTCHA:"
 // RedisTokenPrefix is the prefix of blacklist token key in redis
 const RedisTokenPrefix = "BLACKLIST:TOKEN:"
 
+// RedisTenantBlacklistPrefix is the prefix of tenant blacklist key in redis
+const RedisTenantBlacklistPrefix = "BLACKLIST:TENANT:"
+
 // RedisCasbinChannel is the channel of captcha key in redis
 const RedisCasbinChannel = "/casbin"
+
+// RedisApiPermissionCountPrefix is the prefix of api permission access times left in redis
+const RedisApiPermissionCountPrefix = "API:PERMISSION:"
+
+// RedisDataPermissionPrefix is the prefix of data permission in redis
+const RedisDataPermissionPrefix = "DATAPERM:"

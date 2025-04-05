@@ -1,4 +1,4 @@
-// Copyright 2023  All Rights Reserved.
+// Copyright 2023 The Ryan SU Authors (https://github.com/suyuan32). All Rights Reserved.
 //
 // Licensed under the Apache License, Version 2.0 (the "License");
 // you may not use this file except in compliance with the License.
@@ -35,6 +35,6 @@ const (
 	ServiceUnavailable = "common.serviceUnavailable"
 	ServiceBusy        = "common.serviceBusy"
 	CacheError         = "common.cacheError"
-	Nolisence          = "init."
-	ApiRequestFailed   = "sys.api.apiRequestFailed"
+
+	ApiRequestFailed = "sys.api.apiRequestFailed"
 )
